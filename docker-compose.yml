@@ -1,0 +1,20 @@
+services:
+  client:
+    build:
+      context: ./client # The build context is the client folder from the root
+      dockerfile: ./docker/Dockerfile.client # The path to the Dockerfile is from the root
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./client:/usr/src/app
+    command: npm run dev
+
+  server:
+    build:
+      context: ./server # The build context is the server folder from the root
+      dockerfile: ./docker/Dockerfile.server # The path to the Dockerfile is from the root
+    ports:
+      - "4000:4000"
+    volumes:
+      - ./server:/usr/src/app
+    command: npm run start:dev

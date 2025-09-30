@@ -1,0 +1,51 @@
+# version: '3.8'
+
+# services:
+#   client:
+#     build:
+#       context: ./
+#       dockerfile: Dockerfile.client
+#     ports:
+#       - '3000:3000'
+#     # depends_on:
+#     #   - server
+#     volumes:
+#       - ../client:/app
+#       - /app/node_modules
+#     environment:
+#       - NEXT_PUBLIC_API_URL=http://server:4000/graphql
+
+#   server:
+#     build:
+#       context: ./
+#       dockerfile: Dockerfile.server
+#     ports:
+#       - '4000:4000'
+#     volumes:
+#       - ../server:/app
+#       - /app/node_modules
+#     depends_on:
+#       - client # This ensures the client service starts after the server service
+
+version: '3.8'
+
+services:
+  client:
+    build:
+      context: ../client # The build context is the client folder, one level up
+      dockerfile: ../docker/Dockerfile.client # Path to the Dockerfile relative to the context
+    ports:
+      - "3000:3000"
+    volumes:
+      - ../client:/usr/app
+    command: npm run dev
+
+  server:
+    build:
+      context: ../server # The build context is the server folder, one level up
+      dockerfile: ../docker/Dockerfile.server # Path to the Dockerfile relative to the context
+    ports:
+      - "4000:4000"
+    volumes:
+      - ../server:/usr/src/app
+    command: npm run start:dev

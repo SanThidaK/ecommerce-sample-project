@@ -1,0 +1,128 @@
+{
+  "footerLinks": [
+    {
+      "title": "Find a boutique",
+      "links": [
+        { 
+          "name": "Parfums Christian Dior Boutiques",
+          "url": "#"
+        },
+        {
+          "name": "Christian Dior Couture Boutiques",
+          "url": "#"
+        }
+      ]
+    },
+    {
+      "title": "Customer Service",
+      "links": [
+        { "name": "Contact Us", "url": "#" },
+        { 
+          "name": "FAQ", 
+          "url": "#", 
+          "sub": {
+            "name": "Parfums Christian Dior",
+            "url": "#"
+          }
+        },
+        { "name": "Shipping & Returns", "url": "#" }
+      ]
+    },
+    {
+      "title": "About Dior",
+      "links": [
+        { "name": "Our Story", "url": "#" },
+        { "name": "Careers", "url": "#" },
+        { "name": "Sustainability", "url": "#" }
+      ]
+    },
+    {
+      "title": "Legal",
+      "links": [
+        { "name": "Privacy Policy", "url": "#" },
+        { "name": "Terms of Use", "url": "#" },
+        { "name": "Accessibility", "url": "#" }
+      ]
+    }
+  ],
+    "reassurance": [
+    {
+      "id": 1,
+      "title": "COMPLIMENTARY | Discover J’Adior solid perfume",
+      "text": "Buy the duo and use code JADIOR25 to receive a complimentary travel pouch",
+      "url": "#"
+    },
+    {
+      "id": 2,
+      "title": "SEASONAL STAPLES, GIFTED | Fall Look",
+      "text": "Purchase select Fall Look items and receive a pink Miss Dior pouch",
+      "url": ""
+    },
+    {
+      "id": 3,
+      "title": "Limited: Members-Only First Purchase Gift",
+      "text": "Phone accessory with first $150+ purchase. Use code JOIN25",
+      "url": ""
+    }
+  ],
+  "carousel_data": [
+    { 
+      "id": 1,
+      "image_url": "https://www.dior.com/dw/image/v2/BGXS_PRD/on/demandware.static/-/Library-Sites-DiorSharedLibrary/default/dw8d6651be/images/beauty/0-HOME/BEAUTY/2024/9-SEPT/AOG_Generique21_Hand-Box_2400x3000.jpg", 
+      "alt": "The Art of Gifting",
+      "title": "The Art of Gifting",
+      "link": "",
+      "link_text": "Discover" 
+    },
+    { 
+      "id": 2,
+      "image_url": "https://www.dior.com/dw/image/v2/BGXS_PRD/on/demandware.static/-/Library-Sites-DiorSharedLibrary/default/dwb5682376/images/beauty/0-HOME/BEAUTY/2024/9-SEPT/AOG_Generique21_Hat_2400x3000.jpg", 
+      "alt": "The Gift Atelier",
+      "title": "The Gift Atelier",
+      "link": "",
+      "link_text": "Find the Perfect Gift" 
+    },
+    { 
+      "id": 3,
+      "image_url": "https://www.dior.com/dw/image/v2/BGXS_PRD/on/demandware.static/-/Library-Sites-DiorSharedLibrary/default/dw7cff8630/images/beauty/0-HOME/BEAUTY/2024/9-SEPT/Tri_Axe_GRAVURE_DIN_23_MOOD_2400x3000_V2.jpg", 
+      "alt": "The Personalization Studio",
+      "title": "The Personalization Studio",
+      "link": "",
+      "link_text": "Customize your products" 
+    }
+  ],
+  "homeProducts": [
+    {
+      "id": 1,
+      "image": "https://www.dior.com/dw/image/v2/BGXS_PRD/on/demandware.static/-/Library-Sites-DiorSharedLibrary/default/dw0e25c235/images/beauty/0-HOME/BEAUTY/2025/09-SEPTEMBER/F168_SAUVAGE_S2_25_M01K_Main_NEW_SW_F39_3700x2000.jpg?sw=1920",
+      "alt": "Dior Beauty Hero",
+      "title": "Sauvage", 
+      "text": "The Ultra-Longwear Shine Lipstick", 
+      "urlText": "Discover"
+    },
+    {
+      "id": 2,
+      "image": "https://www.dior.com/dw/image/v2/BGXS_PRD/on/demandware.static/-/Library-Sites-DiorSharedLibrary/default/dw3e8739f0/images/beauty/0-HOME/BEAUTY/2025/09-SEPTEMBER/DIOR_ROUGE_DIOR_25_ON_STAGE_Instit_3700x2000.jpg?sw=1280&sfrm=png",
+      "alt": "Dior Beauty Hero",
+      "title": "Rouge Dior On Stage", 
+      "text": "The Ultra-Longwear Shine Lipstick", 
+      "urlText": "Discover"
+    },
+    {
+      "id": 3,
+      "image": "https://www.dior.com/dw/image/v2/BGXS_PRD/on/demandware.static/-/Library-Sites-DiorSharedLibrary/default/dwe28e253e/images/beauty/0-HOME/BEAUTY/2025/08-AUGUST/DIOR-COM_DIGITAL_LCP_ROSE_STAR_3700x2000px.jpg?sw=1920",
+      "alt": "Dior Beauty Hero",
+      "title": "La Collection Privée" ,
+      "text": "Rose Star: \nThe New Lucky Star Silhouette", 
+      "urlText": "Discover"
+    },
+    {
+      "id": 4,
+      "image": "https://www.dior.com/dw/image/v2/BGXS_PRD/on/demandware.static/-/Library-Sites-DiorSharedLibrary/default/dwd3151699/images/beauty/0-HOME/BEAUTY/2025/09-SEPTEMBER/BACKSTAGE_25_JENNA_PALETTE_3700x2000.jpg?sw=1920",
+      "alt": "Dior Beauty Hero",
+      "title": "Dior Backstage Glow Maximizer Palette", 
+      "text": "The Iconic Glow Palette, Reinvented", 
+      "urlText": "Discover"
+    }
+  ]
+}

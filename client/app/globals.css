@@ -1,0 +1,39 @@
+@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+
+
+:root {
+  --background: #f8f8f8;
+  --foreground: #171717;
+  --iconic-rougedior : #d7d1c7;
+  --primary-alt-1: #7b8487;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #f8f8f8;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  /* background: var(--background); */
+  /* background-image: url('/assets/photos/cannage-bg.png');  */
+  /* background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat;
+  background-attachment: fixed;  */
+  /* background: var(--iconic-rougedior); */
+  /* color: var(--foreground); */
+  font-family: Lora, Arial, Helvetica, sans-serif;
+}
